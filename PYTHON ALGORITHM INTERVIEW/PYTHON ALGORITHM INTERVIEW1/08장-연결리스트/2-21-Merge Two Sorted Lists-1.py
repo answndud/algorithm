@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def mergeTwoLists(self, l1], l2) -> Optional[ListNode]:
+    def mergeTwoLists(self, l1, l2) -> Optional[ListNode]:
         if (not l1) or (l2 and l1.val > l2.val):
             l1, l2 = l2, l1
         if l1:
