@@ -11,7 +11,7 @@ def search(start, end, target):
     if start == end:
         if nums[start] == target:
             print(1)
-        else:
+        else: 
             print(0)
         return
     mid = (start + end) // 2
